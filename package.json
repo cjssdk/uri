@@ -1,0 +1,32 @@
+{
+	"name": "stb-util-parse-uri",
+	"version": "1.3.0",
+	"description": "Parse the given URL location string into object.",
+	"author": {
+		"name": "Stanislav Kalashnik",
+		"email": "sk@infomir.eu"
+	},
+	"repository": "stbsdk/util-parse-uri",
+	"scripts": {
+		"lint": "eslint *.js",
+		"jsdoc": "jsdoc --destination doc *.js readme.md",
+		"webpack": "webpack -d ./tests/main.js ./tests/build.js"
+	},
+	"dependencies": {},
+	"devDependencies": {
+		"jsdoc": "3.*.*",
+		"webpack": "1.*.*"
+	},
+	"keywords": [
+		"stb",
+		"sdk",
+		"device",
+		"tv",
+		"devkit",
+		"framework",
+		"util",
+		"parse",
+		"uri"
+	],
+	"license": "GPL-3.0"
+}
