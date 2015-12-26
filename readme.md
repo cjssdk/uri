@@ -6,7 +6,7 @@ URL string parser
 [![Gitter](https://img.shields.io/badge/gitter-join%20chat-blue.svg?style=flat-square)](https://gitter.im/DarkPark/cjssdk)
 
 
-`cjs-parse-uri` is a module to parse location URLs.
+Module to parse location URLs.
 
 
 ## Installation
