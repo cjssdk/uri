@@ -9,14 +9,14 @@ URL string parser
 Module to parse location URLs.
 
 
-## Installation
+## Installation ##
 
 ```bash
 npm install cjs-parse-uri
 ```
 
 
-## Usage
+## Usage ##
 
 Add to the scope:
 
@@ -31,17 +31,17 @@ console.log(parseUri(document.location));
 ```
 
 
-## Debug mode
+## Debug mode ##
 
 > There is a global var `DEBUG` which activates additional consistency checks and protection logic not available in release mode.
 
 
-## Contribution
+## Contribution ##
 
 If you have any problem or suggestion please open an issue [here](https://github.com/cjssdk/parse-uri/issues).
 Pull requests are welcomed with respect to the [JavaScript Code Style](https://github.com/DarkPark/jscs).
 
 
-## License
+## License ##
 
 `cjs-parse-uri` is released under the [GPL-3.0 License](http://opensource.org/licenses/GPL-3.0).
