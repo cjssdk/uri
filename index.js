@@ -3,6 +3,9 @@
  * @license GNU GENERAL PUBLIC LICENSE Version 3
  */
 
+/* eslint-disable */
+// todo: rework
+
 'use strict';
 
 
