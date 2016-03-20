@@ -51,4 +51,6 @@ parseUri.options = {
 
 
 // public
-module.exports = parseUri;
+module.exports = {
+    parse: parseUri
+};
