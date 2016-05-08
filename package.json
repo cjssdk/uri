@@ -6,7 +6,10 @@
         "name": "Stanislav Kalashnik",
         "email": "darkpark.main@gmail.com"
     },
-    "repository": "cjssdk/parse-uri",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/cjssdk/parse-uri.git"
+    },
     "scripts": {
         "lint": "eslint ./*.js",
         "test": "node ./tests/main.js",
