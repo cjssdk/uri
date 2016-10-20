@@ -34,11 +34,6 @@ console.log(parse(document.location));
 ```
 
 
-## Development mode ##
-
-> There is a global var `DEVELOP` which activates additional consistency checks and protection logic not available in release mode.
-
-
 ## Contribution ##
 
 If you have any problem or suggestion please open an issue [here](https://github.com/cjssdk/uri/issues).
