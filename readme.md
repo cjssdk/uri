@@ -30,7 +30,7 @@ var UriParser = require('cjs-uri');
 Parse current location:
 
 ```js
-console.log(Uriparser.parse(document.location.href));
+console.log(UriParser.parse(document.location.href));
 ```
 
 
