@@ -24,13 +24,13 @@ npm install cjs-uri
 Add to the scope:
 
 ```js
-var parse = require('cjs-uri');
+var UriParser = require('cjs-uri');
 ```
 
 Parse current location:
 
 ```js
-console.log(parse(document.location));
+console.log(Uriparser.parse(document.location.href));
 ```
 
 
