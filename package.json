@@ -1,6 +1,6 @@
 {
     "name": "cjs-uri",
-    "version": "1.4.1",
+    "version": "1.4.2",
     "description": "Parse the given URL location string into object.",
     "author": {
         "name": "Stanislav Kalashnik",
