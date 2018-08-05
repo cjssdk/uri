@@ -1,5 +1,5 @@
 {
-    "name": "@cjssdk/uri",
+    "name": "cjs-uri",
     "version": "1.4.1",
     "description": "Parse the given URL location string into object.",
     "author": {
@@ -10,18 +10,14 @@
         "type": "git",
         "url": "https://github.com/cjssdk/parse-uri.git"
     },
-    "publishConfig": {
-        "access": "public"
-    },
     "scripts": {
         "lint": "eslint --ignore-pattern '/docs/' .",
         "test": "npm run lint",
         "jsdoc": "jsdoc --destination docs *.js readme.md"
     },
     "devDependencies": {
-        "@cjssdk/eslint-config": "1.*.*",
-        "eslint": "4.*.*",
-        "jsdoc": "3.*.*"
+        "cjs-eslint": "^1.1.1",
+        "jsdoc": "^3.5.5"
     },
     "keywords": [
         "commonjs",
@@ -29,8 +25,7 @@
         "cjssdk",
         "framework",
         "uri",
-        "parse",
-        "stringify"
+        "parse"
     ],
     "license": "MIT"
 }
