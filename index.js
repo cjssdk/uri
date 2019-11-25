@@ -12,28 +12,28 @@
  * @license The MIT License (MIT)
  * @copyright Steven Levithan <stevenlevithan.com>
  *
- * @param {string} str string to parse
+ * @param {string} uri - string to parse
  *
  * @return {Object.<string, string>} result data
  */
-function parseUri ( str ) {
-    var options = parseUri.options,
-        matched = options.parser[options.strictMode ? 'strict' : 'loose'].exec(str),
-        uri     = {},
-        index   = 14;
+function parseUri ( uri ) {
+    var options  = parseUri.options,
+        matched  = options.parser[options.strictMode ? 'strict' : 'loose'].exec(uri),
+        uriParts = {},
+        index    = 14;
 
     while ( index-- ) {
-        uri[options.key[index]] = matched[index] || '';
+        uriParts[options.key[index]] = matched[index] || '';
     }
 
-    uri[options.q.name] = {};
+    uriParts[options.q.name] = {};
 
     /* eslint no-unused-vars: 0 */
-    uri[options.key[12]].replace(options.q.parser, function ( $0, $1, $2 ) {
-        if ( $1 ) { uri[options.q.name][$1] = $2; }
+    uriParts[options.key[12]].replace(options.q.parser, function ( $0, $1, $2 ) {
+        if ( $1 ) { uriParts[options.q.name][$1] = $2; }
     });
 
-    return uri;
+    return uriParts;
 }
 
 parseUri.options = {
